@@ -4,15 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 Normatividad de seguridad de la información para contactar al cliente 
-    
+        span 5
+      h1 Etiqueta y protocolo en la atención al cliente, reglas y normas
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
   data: () => ({
     // variables de vue
   }),
