@@ -26,8 +26,8 @@
       h5 Figura 1
       span <em>Elementos básicos de un portafolio</em>
 
-    .row
-      .col-12.col-lg10
+    .row.justify-center
+      .col-12.col-lg-10
         .tabla-a.color-acento-contenido.mb-5 
           table
             thead
