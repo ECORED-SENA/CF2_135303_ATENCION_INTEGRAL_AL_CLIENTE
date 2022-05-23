@@ -119,7 +119,7 @@
               .col-md-4.mb-3
                 figure
                   img(src='@/assets/curso/tema6/t6-7.svg', alt='Texto que describa la imagen')
-              .col-md-8.mb-4.mb-md-0.align-items-center.justify-star
+              .col-md-8.mb-4.mb-md-0.align-items-center
                 div  
                   h3 Comunicación clara y directa
                   p La comunicación debe ser sana, se deben tener en cuenta las fortalezas de la empresa y los beneficios que se puedan ofrecer para cada caso.
