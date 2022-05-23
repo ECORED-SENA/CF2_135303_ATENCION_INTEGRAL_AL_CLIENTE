@@ -5,6 +5,8 @@
   max-width: 40px !important
 .img50
   max-width: 50px !important
+.img54
+  max-width: 54px !important
 .img70
    max-width: 70px !important
 .img80
@@ -260,6 +262,8 @@
     margin-right: 1px
   &_16
     background-color: #FFCECA
+  &_17
+    background-color: #FFEDCC
 .colr
   color: #FFC967
   &_1
@@ -341,3 +345,23 @@
   margin-top: -4rem !important
 .tarjeta-numerada.color-acento-contenido .tarjeta-numerada__numero div
   color: white
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #6765A9 !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D9D9E9
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #E8E8E8
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E8E8E8

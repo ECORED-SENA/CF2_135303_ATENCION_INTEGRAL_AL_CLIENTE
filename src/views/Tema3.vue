@@ -188,90 +188,85 @@
     p.mb-3 Los portafolios de productos y servicios cuentan con algunas características tales como identificar las metas, plantear las estrategias de ventas, recopilar los productos y servicios ofertados, identificar las perspectivas de crecimiento y la planeación de objetivos.
     p.mb-5 Los portafolios de productos y servicios tienen unas características que se describen a continuación:
 
-    .row.mb-5
-      .col-12.col-lg-3
+    .row.mb-5.justify-center
+      .col-12.col-lg-4.align-items-end
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
-      .col-12.col-lg-9
-        TabsA.color-acento-botones.mb-5
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Reseña histórica de la empresa.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Cuándo fue fundada, nombre de los propietarios y logros a través de la historia.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Visión.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-4.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Se plantea en años lo que se desea lograr, hay que tener en cuenta la tecnología y la globalización para no quedar mal con nuestros clientes en caso de que no se logre cumplir.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Objetivos de nuestra empresa.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Especifica lo que se quiere alcanzar durante el tiempo de la visión de la empresa.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Productos.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Debe tener la información necesaria para que el cliente conozca las características y bondades del producto.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Servicios.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-6.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Igual a los productos debe tener la información necesaria para dar claridad de lo que se está ofertando.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Garantías.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-7.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Es el tiempo o fecha hasta la cual la empresa responde por mal funcionamiento o daños que sufra el producto o servicio.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Socios.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-8.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10   
-                p.mb-0 Son las personas propietarias o inversionistas de la empresa.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Proveedores.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10    
-                p.mb-0 Son las personas o empresas que surten la materia prima o productos terminados a la empresa.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Respaldos.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10   
-                p Son las personas o empresas que surten la materia prima o productos terminados a la empresa.
-                p.mb-0  Este apartado se refiere a los respaldos tanto bancarios como de empresas que estarían dispuestas a responder por la empresa en algún evento adverso, o sea las alianzas que tiene.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Clientes de la empresa.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10   
-                p.mb-0 Son las personas o empresas con las que se tiene relación y que les brindan confianza a los clientes.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Datos de contacto.")
-            .row
-              .col-12.col-lg-2.mb-3.mb-lg-0
-                figure.justify-center
-                  img.img50(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
-              .col-12.col-lg-10   
-                p.mb-0 Todas las formas de comunicación oral, visual o escrita que se puedan dar de la empresa.
+      .col-12.col-lg-6
+         LineaTiempoD.color-primario
+          .row(numero="1" titulo="Reseña histórica de la empresa")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Cuándo fue fundada, nombre de los propietarios y logros a través de la historia.
+          .row(numero="2" titulo="Misión")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-4.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Es donde se desarrolla el objetivo general, es la razón de ser y el propósito de la empresa.
+          .row(numero="3" titulo="Visión")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Se plantea en años lo que se desea lograr, hay que tener en cuenta la tecnología y la globalización para no quedar mal con nuestros clientes en caso de que no se logre cumplir.
+          .row(numero="4" titulo="Objetivos de nuestra empresa")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-6.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Especifica lo que se quiere alcanzar durante el tiempo de la visión de la empresa.
+          .row(numero="5" titulo="Productos")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-7.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Debe tener la información necesaria para que el cliente conozca las características y bondades del producto.
+          .row(numero="6" titulo="Servicios")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-8.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Igual a los productos debe tener la información necesaria para dar claridad de lo que se está ofertando.
+          .row(numero="7" titulo="Garantías")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Es el tiempo o fecha hasta la cual la empresa responde por mal funcionamiento o daños que sufra el producto o servicio.
+          .row(numero="8" titulo="Socios")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Son las personas propietarias o inversionistas de la empresa.
+          .row(numero="9" titulo="Proveedores")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Son las personas o empresas que surten la materia prima o productos terminados a la empresa.
+          .row(numero="10" titulo="Respaldos")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-12.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p Son las personas o empresas que surten la materia prima o productos terminados a la empresa.
+              p.mb-0  Este apartado se refiere a los respaldos tanto bancarios como de empresas que estarían dispuestas a responder por la empresa en algún evento adverso, o sea las alianzas que tiene.
+          .row(numero="11" titulo="Clientes de la empresa")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Son las personas o empresas con las que se tiene relación y que les brindan confianza a los clientes.
+          .row(numero="12" titulo="Datos de contacto")
+            .col-md-2
+              figure
+                img.img54(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Todas las formas de comunicación oral, visual o escrita que se puedan dar de la empresa.
 
     h3 Portafolio impreso y digital
 

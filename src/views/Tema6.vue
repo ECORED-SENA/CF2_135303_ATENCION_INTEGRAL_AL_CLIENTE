@@ -60,42 +60,41 @@
     
     p.mb-5 Ahora se señalan las relaciones interpersonales con los clientes.
 
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Relación de asistencia personal.")
-        .row
-          .col-12.col-lg-1.mb-3.mb-lg-0
-            figure
-              img.img50(src='@/assets/curso/tema6/t6-13.svg', alt='Texto que describa la imagen')
-          .col-12.col-lg-11    
-            p.mb-0 Es la que se da entre un funcionario de atención al cliente y el cliente, se puede dar de diferentes maneras tales como física (cara a cara), o a distancia (correo electrónico, telefónicamente, etc.).
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Relaciones de asistencia personal exclusiva.")
-        .row
-          .col-12.col-lg-1.mb-3.mb-lg-0
-            figure
-              img.img50(src='@/assets/curso/tema6/t6-14.svg', alt='Texto que describa la imagen')
-          .col-12.col-lg-11    
-            p.mb-0 Este tipo de asistencia se da con clientes especiales o con marcas de lujo, en estos casos asignan un representante de la empresa para brindar un acompañamiento constante al cliente en todo su proceso de compra o de uso de un servicio. Estos servicios los reciben empresarios que tienen cuentas en bancos privados, políticos importantes y celebridades.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Relación de autoservicio.")
-        .row
-          .col-12.col-lg-1.mb-3.mb-lg-0
-            figure
-              img.img50(src='@/assets/curso/tema6/t6-15.svg', alt='Texto que describa la imagen')
-          .col-12.col-lg-11    
-            p.mb-0 En ese tipo de relación la empresa no mantiene relación directa con el cliente, pero la empresa sí ofrece las herramientas necesarias para que el cliente busque ayuda en el momento que lo requiera, estos centros de ayuda son los chatbots y foros, también Amazon y MercadoLibre que ofrecen una buena atención al cliente y le resuelven sus problemas sin necesitar un representante de servicio al cliente.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Relaciones a través de servicios automatizados.")
-        .row
-          .col-12.col-lg-1.mb-3.mb-lg-0
-            figure
-              img.img50(src='@/assets/curso/tema6/t6-16.svg', alt='Texto que describa la imagen')
-          .col-12.col-lg-11    
-            p.mb-0 Esta relación se refiere a la inteligencia artificial (expresada por máquinas, procesadores y software), lastimosamente no es una tecnología muy usada en Colombia para establecer buenas relaciones con los clientes.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Relaciones de comunidades.")
-        .row
-          .col-12.col-lg-1.mb-3.mb-lg-0
-            figure
-              img.img50(src='@/assets/curso/tema6/t6-17.svg', alt='Texto que describa la imagen')
-          .col-12.col-lg-11    
-            p.mb-0 Con esta relación las empresas pueden demostrar su ventaja competitiva en el mercado al integrar al cliente a través de las diferentes tecnologías, creando grupos con intereses y necesidades en común, este tipo de comunidades permite conocer de primera mano la opinión del cliente.
+    .row.mb-5.justify-center
+      .col-12.col-lg-8
+        LineaTiempoD.color-primario
+          .row(numero="1" titulo="Relación de asistencia personal")
+            .col-md-2
+              figure
+                img.img70(src='@/assets/curso/tema6/t6-13.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Es la que se da entre un funcionario de atención al cliente y el cliente, se puede dar de diferentes maneras tales como física (cara a cara), o a distancia (correo electrónico, telefónicamente, etc.).
+          .row(numero="2" titulo="Relaciones de asistencia personal exclusiva")
+            .col-md-2
+              figure
+                img.img70(src='@/assets/curso/tema6/t6-14.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Este tipo de asistencia se da con clientes especiales o con marcas de lujo, en estos casos asignan un representante de la empresa para brindar un acompañamiento constante al cliente en todo su proceso de compra o de uso de un servicio. Estos servicios los reciben empresarios que tienen cuentas en bancos privados, políticos importantes y celebridades.
+          .row(numero="3" titulo="Relación de autoservicio")
+            .col-md-2
+              figure
+                img.img70(src='@/assets/curso/tema6/t6-15.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 En ese tipo de relación la empresa no mantiene relación directa con el cliente, pero la empresa sí ofrece las herramientas necesarias para que el cliente busque ayuda en el momento que lo requiera, estos centros de ayuda son los chatbots y foros, también Amazon y MercadoLibre que ofrecen una buena atención al cliente y le resuelven sus problemas sin necesitar un representante de servicio al cliente.
+          .row(numero="4" titulo="Relaciones a través de servicios automatizados")
+            .col-md-2
+              figure
+                img.img70(src='@/assets/curso/tema6/t6-16.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Esta relación se refiere a la inteligencia artificial (expresada por máquinas, procesadores y software), lastimosamente no es una tecnología muy usada en Colombia para establecer buenas relaciones con los clientes.
+          .row(numero="5" titulo="Relaciones de comunidades")
+            .col-md-2
+              figure
+                img.img70(src='@/assets/curso/tema6/t6-17.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Con esta relación las empresas pueden demostrar su ventaja competitiva en el mercado al integrar al cliente a través de las diferentes tecnologías, creando grupos con intereses y necesidades en común, este tipo de comunidades permite conocer de primera mano la opinión del cliente.
+      
+    separador
 
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.2 Factores
