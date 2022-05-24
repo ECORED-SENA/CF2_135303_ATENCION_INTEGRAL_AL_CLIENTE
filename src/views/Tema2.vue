@@ -8,10 +8,10 @@
       h1 Normatividad de seguridad de la información para contactar al cliente 
     
     .row.mb-5         
-      .col-12.col-lg-4.mb-3
+      .col-12.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-1.png' alt='AvatarTop')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p Ahora se verá más acerca de la normatividad en seguridad de la información. Según la Norma ISO 27002, las empresas deben tomar medidas de seguridad para proteger los datos de los clientes, pues ellos son tan importantes como los productos y servicios que se estén ofertando; la protección de la información es el pilar fundamental de las empresas para brindar la confianza necesaria a sus clientes, a la marca y para captar nuevas oportunidades de negocios.
         p.bgr_5.p-4 En Colombia, la entidad que regula y vigila el tratamiento de los datos de los usuarios es el Ministerio de las TIC que aplica los estándares de la Norma ISO 27002 para tal fin. La norma ISO 27002 (anteriormente denominada ISO 17799) es un estándar para la seguridad de la información que ha publicado la Organización Internacional de Normalización y la Comisión Electrotécnica Internacional; la versión más reciente de la norma es la ISO 27002:2013.
            
@@ -27,7 +27,7 @@
 
     p Existen cinco prácticas muy utilizadas por las empresas para garantizar la protección de datos de los clientes, a saber:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 1
       span <em>Prácticas para la protección de datos</em>
     
@@ -38,8 +38,8 @@
     
     p.mb-5 A continuación, se desarrolla cada una de las prácticas que garantizan la protección de los datos de los clientes:
 
-    TabsB.color-acento-contenido.mb-5
-      .p-3.p-lg-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema2/t2-3.svg')")
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
+      .p-3.p-lg-5(titulo="Medios electrónicos certificados" :icono="require('@/assets/curso/tema2/t2-3.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Medios electrónicos certificados
@@ -48,7 +48,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/tema2/t2-8.png', alt='Texto que describa la imagen')
-      .p-3.p-lg-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema2/t2-4.svg')")
+      .p-3.p-lg-5(titulo="Copia de seguridad" :icono="require('@/assets/curso/tema2/t2-4.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Copia de seguridad
@@ -57,7 +57,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/tema2/t2-8-1.png', alt='Texto que describa la imagen')
-      .p-3.p-lg-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema2/t2-5.svg')")
+      .p-3.p-lg-5(titulo="Carpetas con contraseñas" :icono="require('@/assets/curso/tema2/t2-5.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Carpetas con contraseñas
@@ -65,16 +65,16 @@
           .col-md-6
             figure
               img(src='@/assets/curso/tema2/t2-8-2.png', alt='Texto que describa la imagen')
-      .p-3.p-lg-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema2/t2-6.svg')")
+      .p-3.p-lg-5(titulo="<em>Backup</em> en la nube" :icono="require('@/assets/curso/tema2/t2-6.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 <em>Backup</em> en la nube
-            p El cloud storage (almacenamiento en la nube) es un servicio tecnológico creado para obtener mayor espacio de almacenamiento, caracterizado por fácil acceso a la información y la protección de los datos del cliente.
+            p El <em>cloud storage</em> (almacenamiento en la nube) es un servicio tecnológico creado para obtener mayor espacio de almacenamiento, caracterizado por fácil acceso a la información y la protección de los datos del cliente.
             p Hace algunos años la información la guardábamos en dispositivos poco seguros, disquetes, discos ZIP, USB, DVD, CD o discos portátiles que, con el tiempo, algunos de estos se dañaban y se perdía la información o peor aún si se perdían podían caer en manos no deseadas.
           .col-md-6
             figure
               img(src='@/assets/curso/tema2/t2-8-3.png', alt='Texto que describa la imagen')
-      .p-3.p-lg-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema2/t2-7.svg')")
+      .p-3.p-lg-5(titulo="Centralización de la información" :icono="require('@/assets/curso/tema2/t2-7.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Centralización de la información 
@@ -86,7 +86,7 @@
     
     p.mb-5 Según cifras del DANE, en el 2021 aumentaron en un 30% los ciberataques en Colombia.
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 2
       span <em>Ciberataques en Colombia</em>
     
@@ -96,16 +96,16 @@
     div.bgr_6.my-3.d-flex.mb-5
       p.my-3.px-3  <b>Nota.</b> Datos tomados de Fiscalía General de la Nación (2021).
 
-    h3 Tecnología segura
+    h3(data-aos="fade-right") Tecnología segura
 
-    p Toda empresa u organización debe tener herramientas de seguridad digital para proteger los datos del cliente, esto le ofrecerá la tranquilidad y seguridad ya que la tecnología segura no permite que software malicioso ingrese y robe los datos que tenga de su cliente interno y su cliente externo, algunas de estas herramientas son:
+    p Toda empresa u organización debe tener herramientas de seguridad digital para proteger los datos del cliente, esto le ofrecerá la tranquilidad y seguridad ya que la tecnología segura no permite que <em>software</em> malicioso ingrese y robe los datos que tenga de su cliente interno y su cliente externo, algunas de estas herramientas son:
 
     SlyderD.mb-5(:datos="datosSlyder")
 
     p.mb-3 Las empresas tuvieron que cambiar su estructura e invertir en seguridad digital para la protección de sus datos y los de sus clientes ante la enorme transformación digital que vive el mundo. Como las empresas deben tener seguros sus procesos para captar potenciales clientes, esto no solo debe hacerse en términos digitales, sino también jurídicos lo que le generará confianza al cliente.
     p.mb-5 La utilización de medidas jurídicas para la protección de la información es una de las técnicas más antiguas y efectivas dentro del ámbito laboral, y funcionan de la siguiente manera:
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-12.bgr_7.justify-center
         h4.mb-0.p-3 Medidas jurídicas
       .col-12.col-lg-6.bgr_5
@@ -123,7 +123,7 @@
           h3 Digitalmente
           p Son soluciones de cifrado de datos que bloquean el acceso a terceros, evitando que cualquier persona pueda consultar la información garantizando la confidencialidad de los datos del cliente.
 
-    .bg_grad-03
+    .bg_grad-03(data-aos="fade-down")
       .row.justify-center
         .col-12.col-lg-3
           figure
@@ -159,7 +159,7 @@ export default {
       {
         titulo: 'Servidor <em>proxy</em>',
         texto:
-          'Es un instrumento o herramienta digital que sirve de intermediario entre el dispositivo y el ordenador que se tenga conectado al Internet o servidor al que se esté accediendo, se puede utilizar para bloquear sitios web que se consideren peligrosos o prohibidos para las empresas o instituciones educativas, pues evita que se filtre la información inadecuada.',
+          'Es un instrumento o herramienta digital que sirve de intermediario entre el dispositivo y el ordenador que se tenga conectado al internet o servidor al que se esté accediendo, se puede utilizar para bloquear sitios <em>web</em> que se consideren peligrosos o prohibidos para las empresas o instituciones educativas, pues evita que se filtre la información inadecuada.',
         imagen: require('@/assets/curso/tema2/t2-12.png'),
       },
     ],

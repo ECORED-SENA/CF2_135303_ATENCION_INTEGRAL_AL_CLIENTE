@@ -19,10 +19,10 @@
           p.mb-0.text-center.text-bold Un protocolo de atención es la forma de plasmar, para toda la organización, el modo de actuar deseado frente al cliente, buscando unificar los criterios, conceptos, creencias e ideas diversas que se puedan tener respecto a qué es una buena atención.
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3
+      .col-12.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema5/t5-1.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p Este protocolo es un documento que se hace manualmente, en él se explica cómo deben actuar los empleados de atención al cliente, el documento detalla las instrucciones de interacción con los clientes, también incluye los planes de contingencia que deben tener los empleados para reaccionar frente a determinadas situaciones y se convierte en una herramienta para capacitar a los futuros empleados.
         p El protocolo es significativo, ya que unifica criterios y explica el comportamiento que la empresa necesita de sus colaboradores, la conducta que deben adquirir y los procedimientos que se tienen que aplicar en la atención al cliente en cualquiera de los canales de contacto con los que cuente la organización.
         p El protocolo de atención y servicio al cliente debe redactarse de manera didáctica, detallada, específica y clara, de manera que oriente a los colaboradores y garantice un aprendizaje. Quienes lo elaboren deben tener experiencia dentro de la empresa y deben conocer los procedimientos y su funcionamiento.
@@ -31,7 +31,7 @@
 
     .bg_grad-04.mb-5
       .row
-        .col-12.col-lg-7.p-5
+        .col-12.col-lg-7.p-5(data-aos="fade-right")
           ol.lista-ol--cuadro.mt-lg-4
             li 
               .lista-ol--cuadro__vineta.colr_3.text-bold
@@ -53,35 +53,35 @@
               .lista-ol--cuadro__vineta.colr_3.text-bold
                 span e
               | Plan de contingencia en situaciones inesperadas especialmente cuando deben atender a cliente en condiciones de discapacidad o clientes insatisfechos o agresivos, esto les enseñará a solucionar problemas complejos.
-        .col-12.col-lg-4
+        .col-12.col-lg-4(data-aos="fade-left")
           figure.justify-end
             img.img320(src='@/assets/curso/tema5/t5-2.svg', alt='Texto que describa la imagen')
 
     p.mb-5 Las ventajas de tener un protocolo de atención y servicio al cliente son:
 
     .row
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema5/t5-3.svg' alt='AvatarTop')
           .tarjeta.bgr.h-100.align-items-center
             .p-3.ml
               p.ms-3.mb-0 Estandarizar procesos.
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-out")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema5/t5-3.svg' alt='AvatarTop')
           .tarjeta.bgr.h-100.align-items-center
             .p-3.ml
               p.ms-3.mb-0 La atención y servicio al cliente son consistentes.
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema5/t5-3.svg' alt='AvatarTop')
           .tarjeta.bgr.h-100.align-items-center
             .p-3.ml
               p.ms-3.mb-0 Se convierte en la guía para capacitar al nuevo personal.
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-out")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema5/t5-3.svg' alt='AvatarTop')
@@ -93,7 +93,7 @@
     p.mb-3 En los ambientes donde se tenga que relacionarse con personas que no se conozcan existe la necesidad de hacerlo de una manera adecuada, especialmente si se trabaja en atención y servicio al cliente. Muchas empresas consideran que es un gasto capacitar al personal en etiqueta para atender al cliente, pero deben considerar que por el contrario se convierte en una inversión.
     p.mb-5 La etiqueta reglamenta la conducta de las personas, son aquellas cosas que los demás no pueden hacer por otras. En la Etiqueta para la atención al cliente en las empresas hay que tener en cuenta estas 5 reglas:
 
-    SlyderD.mb-5.fondslyd(:datos="datosSlyder")
+    SlyderD.mb-5.fondslyd(:datos="datosSlyder")(data-aos="zoom-in")
 
 </template>
 

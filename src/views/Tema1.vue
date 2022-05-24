@@ -20,21 +20,21 @@
     p.mb-5 Las tres características de un sistema eficaz de atención al cliente son las siguientes:
 
     .row
-      .col-lg-4
+      .col-lg-4(data-aos="fade-down")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
           .tarjeta.bgr.alto.align-items-center
             .p-3.ml
               p.ms-3.mb-0 La rapidez.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/t1-3.svg' alt='AvatarTop')
           .tarjeta.bgr.alto
             .p-3.ml
               p.ms-3.mb-0 Independizar las comunicaciones del canal.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-down")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
@@ -44,7 +44,7 @@
     
     p.mb-5 A continuación, se presenta el siguiente recurso, donde se amplían los detalles de cada una de estas características.
 
-    .bg_grad-01
+    .bg_grad-01(data-aos="fade-down")
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure
@@ -67,7 +67,7 @@
             figure.justify-center.mb-3
               img.img160(src='@/assets/curso/tema1/t1-6.svg' alt='AvatarTop')
             h1 Redes sociales
-            p.mb-0 Página web o aplicación en la que los internautas intercambian información personal y contenidos multimedia de modo que crean una comunidad de amigos virtual e interactiva. 
+            p.mb-0 Página <em>web</em> o aplicación en la que los internautas intercambian información personal y contenidos multimedia de modo que crean una comunidad de amigos virtual e interactiva. 
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}")
       .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
         .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -102,13 +102,13 @@
           .tarjeta-slide__contenido.p-4.p-xl-5
             figure.justify-center.mb-3
               img.img160(src='@/assets/curso/tema1/t1-14.svg' alt='AvatarTop')
-            h1 E-mail
+            h1 <em>E-mail</em>
             p.mb-0 Sistema que permite el intercambio de mensajes entre distintas computadoras interconectadas a través de una red. 
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}")
           
-    P.mb-5 A continuación, se verán los tipos de canales utilizados por los clientes.
+    P.mb-5(data-aos="fade-right") A continuación, se verán los tipos de canales utilizados por los clientes.
 
-    .bg_grad-01
+    .bg_grad-01(data-aos="fade-down")
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure
@@ -120,7 +120,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Características
 
-    p.mb-5 Los recursos tecnológicos para atender al cliente cuentan con características tales como control y seguimiento, y permiten reclamaciones telefónicamente, por página web, correo electrónico o cualquier otro medio que utilice la empresa. Las características más importantes de los recursos tecnológicos son las siguientes:
+    p.mb-5 Los recursos tecnológicos para atender al cliente cuentan con características tales como control y seguimiento, y permiten reclamaciones telefónicamente, por página <em>web</em>, correo electrónico o cualquier otro medio que utilice la empresa. Las características más importantes de los recursos tecnológicos son las siguientes:
 
     .tarjeta.bgr_1.p-4.mb-5(data-aos="zoom-out")
       SlyderA(tipo="b")
@@ -182,28 +182,28 @@
     
     separador
 
-     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Manejo
 
     p El manejo de recursos tecnológicos para atender al cliente tiene que ver con la implementación de nuevos dispositivos, la automatización y la inteligencia artificial, con los cuales se puede conseguir que las necesidades de los clientes queden satisfechas.
     p.mb-5 En el manejo de los recursos tecnológicos para atender al cliente se debe tener en cuenta:
 
     .row.mb-5
-      .col-md-4.col-lg.mb-5.mb-lg-0
+      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/t1-20.svg' alt='AvatarTop')
           .tarjeta.bgr_4
             .p-4
               h2.text-center Estudiar y conocer a sus clientes
               p.text-center.mb-0 Cada cliente es único. Debe atenderlos de forma personalizada. Es importante conocer su perfil. Percibir muy bien lo que su cliente busca para que le ofrezca productos y servicios con excelente atención. Mantener actualizados sus datos, esto ayudará a entender las necesidades de los clientes.
-      .col-md-4.col-lg.mb-5.mb-lg-0
+      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/t1-21.svg' alt='AvatarTop')
           .tarjeta.bgr_4
             .p-4
               h2.text-center.mb-5 Establecer lazos con el cliente
-              p.text-center.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el marketing relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes. 
-      .col-md-4.col-lg.mb-5.mb-lg-0
+              p.text-center.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el <em>marketing</em> relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes. 
+      .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/t1-22.svg' alt='AvatarTop')
           .tarjeta.bgr_4

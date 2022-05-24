@@ -8,10 +8,10 @@
       h1 La comunicación con el cliente
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3
+      .col-12.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="fade-left")
         p Hablar de comunicación con el cliente es referirse al contacto que se tiene con él y la información que se comparte, gracias a los diferentes mecanismos y a los avances tecnológicos se abren diversos canales de comunicación con el cliente, que los podemos usar con diferentes propósitos aprovechando sus características.
         p La importancia de la comunicación con el cliente consiste en que se mantenga viva la relación entre la empresa y los consumidores, ya que si no existe dicha comunicación el cliente se puede sentir desprotegido cuando necesite información sobre el producto o servicio que se le haya ofrecido por cualquiera de los canales que tenga para comunicarse; lo mismo puede suceder con clientes potenciales o clientes en condición de discapacidad, los cuales necesitan sentirse escuchados por la empresa.
         p Frecuentemente, se comete el error de utilizar los conceptos de información y comunicación de forma indistinta, cuando en realidad se dirigen a realidades diferentes.
@@ -21,13 +21,13 @@
     .row.justify-center
       .col-12.col-md-10(data-aos="zoom-in-down")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Información.")
+          .row(titulo="Información")
             .col-md-8.px-5
               p Es unidireccional, ya que va en una sola dirección y la persona que la recibe no puede responder ante ella y no puede emitir un mensaje de respuesta, se limita únicamente a recibirla.
             .col-md-4
               figure
                 img(src='@/assets/curso/tema4/t4-2.svg', alt='Texto que describa la imagen')
-          .row(titulo="Comunicación.")
+          .row(titulo="Comunicación")
             .col-md-8.px-5
               p Es bidireccional ya que una persona emite un mensaje y otra persona lo recibe, esto le permite reaccionar y dar respuesta inmediata sin importar lo que ocurra ante la situación que se presente, lo importante es que existe una retroalimentación al respecto.
             .col-md-4
@@ -37,34 +37,34 @@
     p La comunicación con el cliente debe ser clara para no confundir al público, no importa lo que le tenga que decir, lo importante es evitar confusiones que puedan dejarle una mala experiencia y reputación de la empresa.
     p.mb-5 ener una comunicación clara y adecuada don el cliente trae tres grandes beneficios.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-12.col-lg-4.mb-3.mb-lg-0
         div.p-4.bgr_9 
           figure.justify-center.mb-4
             img.img160(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
-          h4.text-center Disposición.
+          h4.text-center Disposición
           p.mb-0.text-center Los clientes están dispuestos a pagar más por los productos o servicios si tienen una buena experiencia donde la comunicación sea eficiente.
       .col-12.col-lg-4.mb-3.mb-lg-0
         div.p-4.bgr_10 
           figure.justify-center.mb-4
             img.img160(src='@/assets/curso/tema4/t4-5.svg', alt='Texto que describa la imagen')
-          h4.text-center Recompra.
+          h4.text-center Recompra
           p.mb-0.text-center Cuando se logra tener una comunicación positiva se tiene más probabilidades de que el cliente vuelva a adquirir y recomendar los productos de la empresa, esto garantiza una relación duradera.
       .col-12.col-lg-4
         div.p-4.bgr_11 
           figure.justify-center.mb-4
             img.img160(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
-          h4.text-center Reputación.
+          h4.text-center Reputación
           p.mb-0.text-center Una buena comunicación con los clientes genera una buena reputación de la empresa. Siempre hay que responder a sus dudas por todos los canales de comunicación, resolviendo las necesidades de los clientes.
     
     p De acuerdo al Manual de protocolo para la atención a personas en situación de discapacidad de la Cámara de Comercio de Medellín y a la Convención Internacional sobre los Derechos de las Personas con Discapacidad, así como al Servicio Nacional de la Discapacidad, existen pautas de comunicación para la atención al cliente en condición de discapacidad. Si consigue aplicarlas estará ampliando su mercado, lo que será rentable para su empresa y justo para esta población, ya que son personas que merecen las mismas oportunidades.
     p.mb-5 Se deben tener en cuenta las siguientes recomendaciones:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 1
       span <em>Recomendaciones</em>
 
-    .row.justify-center
+    .row.justify-center(data-aos="fade-up")
       .col-12.col-lg-10
         .tabla-a.color-acento-contenido.mb-5 
           .tabla-b__header
@@ -149,7 +149,7 @@
     p La comunicación en general debe entenderse como un intercambio. El propósito no es que la conversación suceda desde un solo lado, la intención es provocar reacciones para que exista un flujo de ideas, la comunicación con los clientes sirve como canal para conocerlos mejor y que ellos a su vez conozcan su empresa. También, la comunicación comercial cumple con la función de promocionar una oferta.
     p.mb-5 Con el cliente, sin importar el canal debe recibir una comunicación con las siguientes características.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-12.col-lg-4.mb-3.mb-lg-0
         div.p-4.bgr_12 
           figure.justify-center.mb-4
@@ -172,12 +172,12 @@
     p.mb-5 En cuanto a los canales, en la actualidad existen muchos para comunicarse con los clientes, esto facilita la atención y servicio que se le debe prestar para que quede satisfecho con la empresa.
     
     .row.mb-5
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-right")
         ol.lista-ol--cuadro.mt-lg-4
           li 
             .lista-ol--cuadro__vineta.colr_3.text-bold
               span 1
-            | Sitio web.
+            span Sitio <em>web</em>.
           li 
             .lista-ol--cuadro__vineta.colr_3.text-bold
               span 2
@@ -189,7 +189,7 @@
           li 
             .lista-ol--cuadro__vineta.colr_3.text-bold
               span 4
-            span E-mail  #[strogn marketing]  y boletines electrónicos.
+            span <em>E-mail</em>  <em>marketing</em>  y boletines electrónicos.
           li 
             .lista-ol--cuadro__vineta.colr_3.text-bold
               span 5
@@ -211,7 +211,7 @@
               span 9
             | Atención presencial.
 
-      .col-12.col-lg-6
+      .col-12.col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-10.png', alt='Texto que describa la imagen')
     
@@ -251,7 +251,7 @@
             div 
               img.img70.mb-3(src='@/assets/curso/tema4/t4-15.svg', alt='Texto que describa la imagen')
               h4.bgr_14 No contar con suficientes conocimientos o recursos
-              p Los clientes se frustran cuando la persona que los atiende no cuenta con los recursos suficientes o información para colaborarle con sus problemas o inquietudes, en estos casos el asesor debe saber dirigirlo al software de quejas y reclamos (CRM) para que le resuelvan sus dudas, pero antes de esto debe procurar resolver por sí mismo la situación.
+              p Los clientes se frustran cuando la persona que los atiende no cuenta con los recursos suficientes o información para colaborarle con sus problemas o inquietudes, en estos casos el asesor debe saber dirigirlo al <em>software</em> de quejas y reclamos (CRM) para que le resuelvan sus dudas, pero antes de esto debe procurar resolver por sí mismo la situación.
           .col-md-7.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-14.png', alt='Texto que describa la imagen')
@@ -260,46 +260,46 @@
     p En la comunicación, siendo una actividad básica del ser humano, se presentan obstáculos, sin embargo, hay que destacar la complejidad de elementos que intervienen en ella (culturales, sociales, personales, etc.), que hacen que existan diversas clases de obstáculos que interfieren y la hacen compleja y difícil de desarrollarse.
     p.mb-5 En todo proceso de comunicación se generan obstáculos que dificultan, e incluso, anulan el impacto del mensaje que se quiere transmitir.
 
-    TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="Barreras físicas.")
+    TabsC.color-acento-contenido.mb-5(data-aos="fade-right")
+      .py-3.py-md-4(titulo="Barreras físicas")
         .row.justify-center
           .col-md-4.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/t4-16.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Barreras físicas.
+            h4 Barreras físicas
             p Ubicadas en el canal utilizado para emitir el mensaje, pudiendo distorsionar o anular el mensaje, se refiere a ruidos, interferencias o elementos físicos.
-      .py-3.py-md-4(titulo="Barreras sociográficas.")
+      .py-3.py-md-4(titulo="Barreras sociográficas")
         .row.justify-center
           .col-md-4.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/t4-17.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Barreras sociográficas.
+            h4 Barreras sociográficas
             p Tienen que ver con las clases sociales, la religión, las edades, las ideologías, etc., estas barreras son difíciles de derrumbar para llegar a una solución ya que tienen que ver con las creencias de cada individuo.
-      .py-3.py-md-4(titulo="Barreras actitudinales.")
+      .py-3.py-md-4(titulo="Barreras actitudinales")
         .row.justify-center
           .col-md-4.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/t4-18.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Barreras actitudinales.
+            h4 Barreras actitudinales
             p Son los deseos, intereses y necesidades de las personas, estas barreras son infinitas teniendo en cuenta que cada persona tiene sus propias percepciones, en ese sentido hay que tener en cuenta que la mente de una persona es diferente a la de los demás, por lo que los intereses también son diferentes y es muy difícil que todos salgan satisfechos.
-      .py-3.py-md-4(titulo="Barreras psicológicas.")
+      .py-3.py-md-4(titulo="Barreras psicológicas")
         .row.justify-center
           .col-md-4.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/t4-19.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Barreras psicológicas.
+            h4 Barreras psicológicas
             p Tienen que ver con la personalidad y creencias de las personas, en ese sentido hay que tener en cuenta los pensamientos opuestos, los prejuicios, los valores, etc.
-      .py-3.py-md-4(titulo="Barreras semánticas.")
+      .py-3.py-md-4(titulo="Barreras semánticas")
         .row.justify-center
           .col-md-4.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema4/t4-20.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Barreras semánticas.
+            h4 Barreras semánticas
             p Se refiere al lenguaje, idiomas o lenguas que dominen el emisor y el receptor.
 
     p.mb-5 La comunicación cumple con una serie de funciones y depende de los objetivos propuestos:
@@ -312,7 +312,7 @@
               img.img90.transf(src='@/assets/curso/tema4/t4-21.svg', alt='Texto que describa la imagen')
           .col-9.align-items-center.p-2
             div
-              p.text-bold Informativa. 
+              p.text-bold Informativa 
               p.mb-0 Comunicar información objetiva.
       .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
         .row.bgr_15
@@ -321,7 +321,7 @@
               img.img90.transf(src='@/assets/curso/tema4/t4-22.svg', alt='Texto que describa la imagen')
           .col-9.align-items-center.p-2
             div
-              p.text-bold Expresiva. 
+              p.text-bold Expresiva 
               p.mb-0 Mostrar sentimientos o emociones.
       .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
         .row.bgr_15
@@ -330,7 +330,7 @@
               img.img90.transf(src='@/assets/curso/tema4/t4-23.svg', alt='Texto que describa la imagen')
           .col-9.align-items-center.p-2
             div
-              p.text-bold Formativa.
+              p.text-bold Formativa
               p.mb-0  Incidir en el otro y enseñarle cosas.
     
     .row.justify-center
@@ -341,7 +341,7 @@
               img.img90.transf(src='@/assets/curso/tema4/t4-24.svg', alt='Texto que describa la imagen')
           .col-9.align-items-center.p-2
             div
-              p.text-bold Persuasiva.
+              p.text-bold Persuasiva
               p.mb-0 Convencer a otros de que hagan algo.
       .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
         .row.bgr_15
@@ -350,7 +350,7 @@
               img.img90.transf(src='@/assets/curso/tema4/t4-25.svg', alt='Texto que describa la imagen')
           .col-9.align-items-center.p-2
             div
-              p.text-bold Entretenimiento. 
+              p.text-bold Entretenimiento 
               p.mb-0 Por el gusto de comunicarse.
       
     separador
@@ -388,7 +388,7 @@
     p Los roles de servicio al cliente varían en su nombre, en algunas empresas les llaman agentes de servicio al cliente o representantes de servicio al cliente, agentes o representantes de atención al cliente. 
     p.mb-5 A continuación, se presentan los roles que cumplen los representantes de servicio al cliente y las funciones que cada uno desarrolla, es a ellos que los clientes deben acudir para resolver sus situaciones.
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")(data-aos="zoom-in")
 
     separador
 
@@ -519,14 +519,14 @@
 
     p.mb-5 En los siguientes dos videos se expone qué es la comunicación asertiva y algunos criterios para utilizarla.
 
-    .bg_grad-01
+    .bg_grad-01(data-aos="zoom-out")
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/VXQJ7DGmkio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
-    .bg_grad-01
+    .bg_grad-01(data-aos="zoom-in")
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure
@@ -551,7 +551,7 @@ export default {
       {
         titulo: 'Agente de centro de llamadas',
         texto:
-          'Los funcionarios del centro de llamadas (call center) laboran internamente o en forma remota a través de  un centro de llamadas virtual, entre sus funciones está responder llamadas, solucionar quejas, despertar interés en el cliente y resolver transacciones, estos funcionarios reciben un gran número de llamadas al día.',
+          'Los funcionarios del centro de llamadas (<em>call center</em>) laboran internamente o en forma remota a través de  un centro de llamadas virtual, entre sus funciones está responder llamadas, solucionar quejas, despertar interés en el cliente y resolver transacciones, estos funcionarios reciben un gran número de llamadas al día.',
         imagen: require('@/assets/curso/tema4/t4-28.png'),
       },
       {

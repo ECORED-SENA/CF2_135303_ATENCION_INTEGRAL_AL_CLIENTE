@@ -11,7 +11,7 @@
     
     p.mb-5 Le damos la bienvenida al componente formativo <b>“Protocolos de servicio al cliente”</b>, y para comenzar satisfactoriamente este recorrido se invita a explorar el recurso que se muestra a continuación:
     
-    .bg_grad-01
+    .bg_grad-01(data-aos="fade-down")
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure

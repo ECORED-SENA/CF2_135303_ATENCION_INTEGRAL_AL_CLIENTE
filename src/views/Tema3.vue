@@ -8,10 +8,10 @@
       h1 Portafolio de servicios
 
     .row
-      .col-12.col-lg-5.mb-3
+      .col-12.col-lg-5.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-left")
         p.mt-lg-5 Las condiciones del mercado han cambiado, anteriormente un empresario solo tenía como herramienta para atender al cliente su mirada para verlo a los ojos y su mano para estrecharla; las condiciones del mercado y los avances tecnológicos ofrecen un mundo de posibilidades para contactar al cliente, no solo física, sino virtualmente lo cual les permite ampliar sus expectativas de negocios ampliando la oferta y optimizando recursos.
 
     separador
@@ -22,11 +22,11 @@
     p.mb-3 Un portafolio bien estructurado, de acuerdo con el experto Alberto Cajal, llega a convertirse en un aliado fiel si es utilizado como medio para llegar al cliente, con el propósito de demostrar un orden de lo que es la empresa y mostrar todo su interior para darse a conocer de forma externa. Un portafolio se utiliza a manera de interacción con el cliente, ya que el documento le permite resolver inquietudes que pueda tener del producto o servicio que ofrece la empresa (Cajal A., 2020).
     p.mb-5 Lo siguiente es lo que necesita un portafolio para cumplir con su objetivo:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 1
       span <em>Elementos básicos de un portafolio</em>
 
-    .row.justify-center
+    .row.justify-center(data-aos="fade-left")
       .col-12.col-lg-10
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -148,7 +148,7 @@
                   ul.lista-ul
                     li 
                       i.fas.fa-check-circle.colr_2
-                      | Página web.
+                      span Página <em>web</em>.
                     li 
                       i.fas.fa-check-circle.colr_2
                       | Correo electrónico.
@@ -172,7 +172,7 @@
                       | Twitter.
                     li 
                       i.fas.fa-check-circle.colr_2
-                      | <em>Call Center</em> (centro de llamadas).
+                      span <em>Call Center</em> (centro de llamadas).
                     li 
                       i.fas.fa-check-circle.colr_2
                       | Fax.
@@ -188,7 +188,7 @@
     p.mb-3 Los portafolios de productos y servicios cuentan con algunas características tales como identificar las metas, plantear las estrategias de ventas, recopilar los productos y servicios ofertados, identificar las perspectivas de crecimiento y la planeación de objetivos.
     p.mb-5 Los portafolios de productos y servicios tienen unas características que se describen a continuación:
 
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="fade-down")
       .col-12.col-lg-4.align-items-end
         figure
           img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
@@ -268,7 +268,7 @@
             .col-md-10.mb-4.mb-md-0
               p.mb-0 Todas las formas de comunicación oral, visual o escrita que se puedan dar de la empresa.
 
-    h3 Portafolio impreso y digital
+    h3(data-aos="fade-right") Portafolio impreso y digital
 
     p.mb-5 El portafolio puede presentarse impreso o digital, esto depende de la necesidad que tenga la empresa de llegar al cliente.
     
