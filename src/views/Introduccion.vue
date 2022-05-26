@@ -16,9 +16,8 @@
         .col-12.col-md-10
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/J9Oxd5Zbv6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-   
-   
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/VdBU-D7dDXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+  
 </template>
 
 <script>
