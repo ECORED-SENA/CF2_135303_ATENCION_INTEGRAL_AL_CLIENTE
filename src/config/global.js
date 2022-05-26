@@ -103,7 +103,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Comunicación efectiva y asertiva',
+            titulo: 'Técnicas de comunicación efectiva y asertiva',
             hash: 't_4_4',
           },
         ],
@@ -206,12 +206,14 @@ export default {
     },
     {
       referencia: 'Funiber.org. (2017). Beneficios, tecnología y empresas.',
-      link: 'https://blogs.funiber.org/direccion-empresarial',
+      link:
+        'https://blogs.funiber.org/direccion-empresarial/2017/06/14/funiber-beneficios-tecnologia-empresas',
     },
     {
       referencia:
         'IMF-formación.com. (2019). Atención al cliente medios tecnológicos. Blog marketing.',
-      link: 'https://blogs.imf-formacion.com/',
+      link:
+        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/?sp=6358541982459737508418/page/4',
     },
     {
       referencia:
@@ -366,12 +368,6 @@ export default {
         cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',

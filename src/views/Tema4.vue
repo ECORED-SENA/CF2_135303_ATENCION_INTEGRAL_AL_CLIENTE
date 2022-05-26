@@ -35,7 +35,7 @@
                 img(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
     
     p La comunicación con el cliente debe ser clara para no confundir al público, no importa lo que le tenga que decir, lo importante es evitar confusiones que puedan dejarle una mala experiencia y reputación de la empresa.
-    p.mb-5 ener una comunicación clara y adecuada don el cliente trae tres grandes beneficios.
+    p.mb-5 Tener una comunicación clara y adecuada con el cliente trae tres grandes beneficios.
 
     .row.mb-5(data-aos="fade-left")
       .col-12.col-lg-4.mb-3.mb-lg-0
@@ -435,7 +435,7 @@
                       | Las ideas emitidas deben ser claras por medio de palabras entendibles y coherentes para evitar posibles interpretaciones.
                     li 
                       i.fas.fa-check-circle.colr_2
-                      | Se debe mantener un nivel de voz acorde a la situación en la que se encuentre el emiso
+                      | Se debe mantener un nivel de voz acorde a la situación en la que se encuentre el emisor
                     li 
                       i.fas.fa-check-circle.colr_2
                       | Debe generarse el intercambio de ideas objetivas, ya que esto incrementa las posibilidades de obtener un diálogo positivo.

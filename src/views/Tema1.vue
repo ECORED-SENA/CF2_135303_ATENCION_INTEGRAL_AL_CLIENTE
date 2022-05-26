@@ -209,7 +209,7 @@
           .tarjeta.bgr_4
             .p-4
               h2.text-center.mb-5 Utilizar la tecnología a su favor
-              p.text-center.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan cada la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
+              p.text-center.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
 
 
 
