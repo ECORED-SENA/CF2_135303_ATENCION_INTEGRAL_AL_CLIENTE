@@ -205,13 +205,14 @@ export default {
       link: 'https://definicion.com/relaciones-interpersonales/',
     },
     {
-      referencia: 'Funiber.org. (2017). Beneficios, tecnología y empresas.',
+      referencia:
+        'Funiber.org. (2017). Beneficios de incorporar tecnología a las empresas.',
       link:
         'https://blogs.funiber.org/direccion-empresarial/2017/06/14/funiber-beneficios-tecnologia-empresas',
     },
     {
       referencia:
-        'IMF-formación.com. (2019). Atención al cliente medios tecnológicos. Blog marketing.',
+        'IMF-formación.com. (2019). Atención al cliente a través de medios tecnológicos. Blog marketing.',
       link:
         'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/?sp=6358541982459737508418/page/4',
     },
